@@ -55,6 +55,8 @@
 	{
 		overflow: hidden;
 		margin: 0em auto;
+		width: 1440px;
+		height : 800px
 	}
 	
 /*********************************************************************************/
@@ -286,7 +288,7 @@
 	{
 		position: relative;
 		padding: 5em 0em 200em 0em;
-		background: #FFF;
+		background: red;
 	}
 
 /*********************************************************************************/
@@ -295,9 +297,7 @@
 
 	#header-wrapper
 	{
-		padding-top:200px;
-		padding-bottom: 400px;
-		background: url(images/lifepath.jpg);
+		background: white;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-attachment: scroll;
