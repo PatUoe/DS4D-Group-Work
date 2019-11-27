@@ -1,0 +1,49 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+
+    }
+    
+    .head
+    {
+        height: auto; 
+        width: auto\9; 
+        width:100%;
+    }
+
+    .head img{
+        height: auto; 
+        width: auto\9; 
+        width:100%;
+    }
+
+
+.step img{
+    top:200px;
+    position: relative;
+}
+
+.comics1{
+    background:green;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+
+.comics2{
+    background: red;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+
+#out{
+    position: absolute;
+    left:20%;
+}
+
+
