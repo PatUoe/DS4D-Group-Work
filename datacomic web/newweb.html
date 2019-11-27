@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>life expectancy in Scotland</title>
     <link rel="stylesheet" type="text/css" href="css/newweb.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="head">
-        <img src="img/head.png" all="">    
+      <img src="img/head.png" all="" />
     </div>
 
-    <div class="comics1" >
-            <div id="out" data-450="opacity:0" data-500="opacity:1">
-                <img src="img/step1.png" top:10%>
-            </div>
-            <div id="out" data-500="opacity:0" data-650="opacity:1">
-                    <img src="img/step1.png" top:20%>
-            </div>
-            <div id="out" data-650="opacity:0" data-700="opacity:1">
-                    <img src="img/step1.png" top:30%>
-            </div>
-            <div id="out" data-700="opacity:0" data-750="opacity:1">
-                    <img src="img/step1.png" top:40%>
-            </div>
-            <div id="out" data-750="opacity:0" data-800="opacity:1">
-                    <img src="img/step1.png" top:50%>
-            </div>
-            <div id="out" data-800="opacity:0" data-850="opacity:1">
-                    <img src="img/step1.png" top:60%>
-            </div>
-            <div id="out" data-850="opacity:0" data-900="opacity:1">
-                    <img src="img/step1.png" top:90%>
-            </div>
-        
-
+    <div class="comics1">
+      <div class="out out1" data-450="opacity:0" data-500="opacity:1">
+        <img src="img/step1.png" top:10% />
+      </div>
+      <div class="out out2" data-500="opacity:0" data-650="opacity:1">
+        <img src="img/step1.png" top:20% />
+      </div>
+      <div class="out out3" data-650="opacity:0" data-700="opacity:1">
+        <img src="img/step1.png" top:30% />
+      </div>
+      <div class="out out4" data-700="opacity:0" data-750="opacity:1">
+        <img src="img/step1.png" top:40% />
+      </div>
+      <div class="out out5" data-750="opacity:0" data-800="opacity:1">
+        <img src="img/step1.png" top:50% />
+      </div>
+      <div class="out out6" data-800="opacity:0" data-850="opacity:1">
+        <img src="img/step1.png" top:60% />
+      </div>
+      <div class="out out7" data-850="opacity:0" data-900="opacity:1">
+        <img src="img/step1.png" top:90% />
+      </div>
     </div>
 
     <div class="comics2">
-
-            <div class="table" data-1200="left:15%;bottom:100%;" data-1600="left:15%;bottom:0%;">
-                Here is a table!!!!
-            </div>
-
+      <div
+        class="table"
+        data-1200="left:15%;bottom:100%;"
+        data-1600="left:15%;bottom:0%;"
+      >
+        Here is a table!!!!
+      </div>
     </div>
 
     <script type="text/javascript" src="js/skrollr.min.js"></script>
 
-
-	<script type="text/javascript">
-	var s = skrollr.init({
-		edgeStrategy: 'set',
-		easing: {
-			WTF: Math.random,
-			inverted: function(p) {
-				return 1-p;
-			}
-		}
-	});
-	</script>
-</body>
-</html>  
+    <script type="text/javascript">
+      var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+          WTF: Math.random,
+          inverted: function(p) {
+            return 1 - p;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
