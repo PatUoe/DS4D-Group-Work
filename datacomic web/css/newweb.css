@@ -28,6 +28,7 @@ html, body
 }
 
 .comics1{
+    position: relative;
     background:green;
     background-attachment: fixed;
     width: 100%;
@@ -41,9 +42,38 @@ html, body
     height: 800px;
 }
 
-#out{
+.out{
     position: absolute;
     left:20%;
 }
+
+.out1 {
+    top: 30px;
+}
+
+.out2 {
+    top: 100px;
+}
+
+.out3 {
+    top: 170px;
+}
+
+.out4 {
+    top: 240px;
+}
+
+.out5 {
+    top: 310px;
+}
+
+.out6 {
+    top: 380px;
+}
+
+.out7 {
+    top: 450px;
+}
+
 
 
