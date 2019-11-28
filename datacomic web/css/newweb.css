@@ -1,8 +1,17 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 html, body
 	{
 		height: 100%;
 	}
-	
+h2{
+    bottom:30%;
+}
 	body
 	{
 
@@ -11,16 +20,17 @@ html, body
     .head
     {
         height: auto; 
+        /* background: yellow; */
         width: auto\9; 
         width:100%;
     }
-
+/*  
     .head img{
         height: auto; 
         width: auto\9; 
         width:100%;
     }
-
+*/
 
 .step img{
     top:200px;
@@ -29,51 +39,145 @@ html, body
 
 .comics1{
     position: relative;
-    background:green;
+    background:white;
     background-attachment: fixed;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 
-.comics2{
-    background: red;
-    background-attachment: fixed;
-    width: 100%;
-    height: 800px;
-}
 
+
+
+/*change loaction of left of all elements in the comics1*/
 .out{
     position: absolute;
-    left:20%;
+    left:50%;
 }
 
 .out1 {
-    top: 30px;
+    top: 0px;
+    
+    
 }
 
 .out2 {
-    top: 100px;
+    top: 70px;
+    
 }
 
 .out3 {
-    top: 170px;
+    top: 145px;
+    
 }
 
 .out4 {
-    top: 240px;
+    top: 225px;
+    
 }
 
 .out5 {
     top: 310px;
+   
 }
 
 .out6 {
-    top: 380px;
+    top: 405px;
+
 }
 
 .out7 {
-    top: 450px;
+    top: 510px;
+}
+
+.out8 {
+    top: 610px;
+}
+
+.table {
+    position: absolute;  
+}
+.table img{
+    width: 300px;
+}
+.comics2{
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 960px;
+}
+
+.comiccontainer2{
+        position: absolute;
+        left:44%;
 }
 
 
+.comics3{
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 960px;
+}
 
+.comiccontainer3{
+    position: absolute;
+    left:28%;
+}
+
+.comics4{
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+    height: 960px;
+}
+
+.comiccontainer4{
+    position: absolute;
+    left:9%;
+}
+
+
+.lastcomic{
+        height: auto; 
+        width: auto\9; 
+        width:100%;
+    }
+
+.lastcomic img{
+        width:1440px;
+        height: auto; 
+        width: auto\9; 
+        background: yellow;
+
+        position: relative;
+    }
+
+.right{
+    height:120px;
+    width: 500px;
+    background: red;
+    opacity:0;
+    position: absolute;
+    bottom: -1522%;
+    left: 10%;
+}
+.right a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    height:120px;
+    width: 500px;
+    background: red;
+    opacity:0;
+    position: absolute;
+    bottom: -1522%;
+    left: 60%;
+}
+.left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
