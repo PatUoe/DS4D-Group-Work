@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>life expectancy in Scotland</title>
+    <link rel="stylesheet" type="text/css" href="css/newweb.css" />
+  </head>
+  <body>
+    <div class="head" id="head">
+      <embed src="video/final.swf" width="1440" height="810" align=center loop="False"></embed>
+    </div>
+
+    <div class="comics1">
+      <div class="out out1" data-200="opacity:0" data-260="opacity:1">
+        <img src="img/step1.png" top:10% width="350px"/>
+      </div>
+      <div class="out out2" data-260="opacity:0" data-320="opacity:1">
+        <img src="img/step2.png" top:20% width="350px"/>
+      </div>
+      <div class="out out3" data-320="opacity:0" data-380="opacity:1">
+        <img src="img/step3.png" top:30% width="350px"/>
+      </div>
+      <div class="out out4" data-380="opacity:0" data-440="opacity:1">
+        <img src="img/step4.png" top:40% width="350px"/>
+      </div>
+      <div class="out out5" data-440="opacity:0" data-500="opacity:1">
+        <img src="img/step5.png" top:50% width="350px" />
+      </div>
+      <div class="out out6" data-500="opacity:0" data-560="opacity:1">
+        <img src="img/step6.png" top:60% width="350px"/>
+      </div>
+      <div class="out out7" data-560="opacity:0" data-620="opacity:1">
+        <img src="img/step7.png" top:90% width="350px"/>
+      </div>
+      <div class="out out8" data-700="opacity:0" data-800="opacity:1">
+        <img src="img/step8.png" top:100% width="350px"/>
+      </div>
+    </div>
+<!-- comics2  -->
+    <div class="comics2">
+      <div class="comiccontainer2">
+        <img src="img/comic/comic1.png" width="450px">
+      </div>
+      
+      <div class="table" data-830="left:20%;bottom:73%;"data-1800="left:20%;bottom:5%;">
+        <img src="img/comic/withcomic1.png" > 
+      </div>
+    </div>
+<!-- comics3 -->
+    <div class="comics3">
+      <div class="comiccontainer3">
+        <img src="img/comic/comic2.png" width="250px" height="960" >
+      </div>  
+      <div class="table" data-1920="left:45.5%;bottom:66%;"data-2800="left:45.5%;bottom:0%;">
+        <img src="img/comic/withcomic2.png" > 
+      </div>
+    </div>
+
+    <div class="comics4">
+      <div class="comiccontainer4">
+        <img src="img/comic/comic3.png" width="300px" height="960" >
+      </div>  
+      <div class="table" data-3000="left:32%;bottom:63%;"data-3800="left:32%;bottom:0%;">
+        <img src="img/comic/withcomic3.png" > 
+      </div>
+    </div>
+
+    <div class="lastcomic">
+      <img src="img/comic/alllast .png" all="" usename="#back"/> 
+    </div>
+    <div class="right">
+          <a href="#head"> </a>
+    </div>
+    <div class="left">
+          <a href="#head"> </a>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+
+    <script type="text/javascript">
+      var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+          WTF: Math.random,
+          inverted: function(p) {
+            return 1 - p;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
