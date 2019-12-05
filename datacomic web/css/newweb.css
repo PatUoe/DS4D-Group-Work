@@ -51,7 +51,7 @@ h2{
 /*change loaction of left of all elements in the comics1*/
 .out{
     position: absolute;
-    left:50%;
+    left:47.5%;
 }
 
 .out1 {
@@ -108,7 +108,7 @@ h2{
 
 .comiccontainer2{
         position: absolute;
-        left:44%;
+        left:47%;
 }
 
 
@@ -121,7 +121,7 @@ h2{
 
 .comiccontainer3{
     position: absolute;
-    left:28%;
+    left:26%;
 }
 
 .comics4{
@@ -147,8 +147,6 @@ h2{
         width:1440px;
         height: auto; 
         width: auto\9; 
-        background: yellow;
-
         position: relative;
     }
 
@@ -158,7 +156,7 @@ h2{
     background: red;
     opacity:0;
     position: absolute;
-    bottom: -1522%;
+    bottom: -1480%;
     left: 10%;
 }
 .right a {
@@ -173,7 +171,7 @@ h2{
     background: red;
     opacity:0;
     position: absolute;
-    bottom: -1522%;
+    bottom: -1480%;
     left: 60%;
 }
 .left a {
